@@ -15,6 +15,7 @@
 		85CDE1E6203EA91D00DF6169 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE1E5203EA91D00DF6169 /* main.m */; };
 		85CDE1F0203EA91D00DF6169 /* AlgorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE1EF203EA91D00DF6169 /* AlgorithmTests.m */; };
 		85CDE1FB203EA91D00DF6169 /* AlgorithmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE1FA203EA91D00DF6169 /* AlgorithmUITests.m */; };
+		85CDE213203EA92800DF6169 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE209203EA92800DF6169 /* BaseController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,16 @@
 		85CDE1F6203EA91D00DF6169 /* AlgorithmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CDE1FA203EA91D00DF6169 /* AlgorithmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmUITests.m; sourceTree = "<group>"; };
 		85CDE1FC203EA91D00DF6169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85CDE208203EA92800DF6169 /* BaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		85CDE209203EA92800DF6169 /* BaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		85CDE20B203EA92800DF6169 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
+		85CDE20C203EA92800DF6169 /* BubbleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
+		85CDE20D203EA92800DF6169 /* InsertionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
+		85CDE20E203EA92800DF6169 /* InsertionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
+		85CDE20F203EA92800DF6169 /* SelectionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
+		85CDE210203EA92800DF6169 /* SelectionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionSort.m; sourceTree = "<group>"; };
+		85CDE211203EA92800DF6169 /* ShellSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
+		85CDE212203EA92800DF6169 /* ShellSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,9 @@
 		85CDE1D5203EA91D00DF6169 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				85CDE20A203EA92800DF6169 /* Algorithm */,
+				85CDE208203EA92800DF6169 /* BaseController.h */,
+				85CDE209203EA92800DF6169 /* BaseController.m */,
 				85CDE1D6203EA91D00DF6169 /* AppDelegate.h */,
 				85CDE1D7203EA91D00DF6169 /* AppDelegate.m */,
 				85CDE1D9203EA91D00DF6169 /* ViewController.h */,
@@ -130,6 +144,21 @@
 				85CDE1FC203EA91D00DF6169 /* Info.plist */,
 			);
 			path = AlgorithmUITests;
+			sourceTree = "<group>";
+		};
+		85CDE20A203EA92800DF6169 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				85CDE20B203EA92800DF6169 /* BubbleSort.h */,
+				85CDE20C203EA92800DF6169 /* BubbleSort.m */,
+				85CDE20D203EA92800DF6169 /* InsertionSort.h */,
+				85CDE20E203EA92800DF6169 /* InsertionSort.m */,
+				85CDE20F203EA92800DF6169 /* SelectionSort.h */,
+				85CDE210203EA92800DF6169 /* SelectionSort.m */,
+				85CDE211203EA92800DF6169 /* ShellSort.h */,
+				85CDE212203EA92800DF6169 /* ShellSort.m */,
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +296,7 @@
 			files = (
 				85CDE1DB203EA91D00DF6169 /* ViewController.m in Sources */,
 				85CDE1E6203EA91D00DF6169 /* main.m in Sources */,
+				85CDE213203EA92800DF6169 /* BaseController.m in Sources */,
 				85CDE1D8203EA91D00DF6169 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
