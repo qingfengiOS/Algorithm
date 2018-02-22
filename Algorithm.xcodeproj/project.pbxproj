@@ -16,6 +16,10 @@
 		85CDE1F0203EA91D00DF6169 /* AlgorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE1EF203EA91D00DF6169 /* AlgorithmTests.m */; };
 		85CDE1FB203EA91D00DF6169 /* AlgorithmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE1FA203EA91D00DF6169 /* AlgorithmUITests.m */; };
 		85CDE213203EA92800DF6169 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE209203EA92800DF6169 /* BaseController.m */; };
+		85CDE22A203EAD8A00DF6169 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE223203EAD8900DF6169 /* BubbleSort.m */; };
+		85CDE22B203EAD8A00DF6169 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE225203EAD8900DF6169 /* InsertionSort.m */; };
+		85CDE22C203EAD8A00DF6169 /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE227203EAD8900DF6169 /* SelectionSort.m */; };
+		85CDE22D203EAD8A00DF6169 /* ShellSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE229203EAD8900DF6169 /* ShellSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,14 +58,14 @@
 		85CDE1FC203EA91D00DF6169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85CDE208203EA92800DF6169 /* BaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
 		85CDE209203EA92800DF6169 /* BaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
-		85CDE20B203EA92800DF6169 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
-		85CDE20C203EA92800DF6169 /* BubbleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
-		85CDE20D203EA92800DF6169 /* InsertionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
-		85CDE20E203EA92800DF6169 /* InsertionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
-		85CDE20F203EA92800DF6169 /* SelectionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
-		85CDE210203EA92800DF6169 /* SelectionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionSort.m; sourceTree = "<group>"; };
-		85CDE211203EA92800DF6169 /* ShellSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
-		85CDE212203EA92800DF6169 /* ShellSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellSort.m; sourceTree = "<group>"; };
+		85CDE222203EAD8900DF6169 /* BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
+		85CDE223203EAD8900DF6169 /* BubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
+		85CDE224203EAD8900DF6169 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
+		85CDE225203EAD8900DF6169 /* InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
+		85CDE226203EAD8900DF6169 /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
+		85CDE227203EAD8900DF6169 /* SelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionSort.m; sourceTree = "<group>"; };
+		85CDE228203EAD8900DF6169 /* ShellSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
+		85CDE229203EAD8900DF6169 /* ShellSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShellSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +116,7 @@
 		85CDE1D5203EA91D00DF6169 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				85CDE20A203EA92800DF6169 /* Algorithm */,
+				85CDE221203EAD8900DF6169 /* Algorithm */,
 				85CDE208203EA92800DF6169 /* BaseController.h */,
 				85CDE209203EA92800DF6169 /* BaseController.m */,
 				85CDE1D6203EA91D00DF6169 /* AppDelegate.h */,
@@ -146,17 +150,17 @@
 			path = AlgorithmUITests;
 			sourceTree = "<group>";
 		};
-		85CDE20A203EA92800DF6169 /* Algorithm */ = {
+		85CDE221203EAD8900DF6169 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				85CDE20B203EA92800DF6169 /* BubbleSort.h */,
-				85CDE20C203EA92800DF6169 /* BubbleSort.m */,
-				85CDE20D203EA92800DF6169 /* InsertionSort.h */,
-				85CDE20E203EA92800DF6169 /* InsertionSort.m */,
-				85CDE20F203EA92800DF6169 /* SelectionSort.h */,
-				85CDE210203EA92800DF6169 /* SelectionSort.m */,
-				85CDE211203EA92800DF6169 /* ShellSort.h */,
-				85CDE212203EA92800DF6169 /* ShellSort.m */,
+				85CDE222203EAD8900DF6169 /* BubbleSort.h */,
+				85CDE223203EAD8900DF6169 /* BubbleSort.m */,
+				85CDE224203EAD8900DF6169 /* InsertionSort.h */,
+				85CDE225203EAD8900DF6169 /* InsertionSort.m */,
+				85CDE226203EAD8900DF6169 /* SelectionSort.h */,
+				85CDE227203EAD8900DF6169 /* SelectionSort.m */,
+				85CDE228203EAD8900DF6169 /* ShellSort.h */,
+				85CDE229203EAD8900DF6169 /* ShellSort.m */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -295,8 +299,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				85CDE1DB203EA91D00DF6169 /* ViewController.m in Sources */,
+				85CDE22B203EAD8A00DF6169 /* InsertionSort.m in Sources */,
+				85CDE22A203EAD8A00DF6169 /* BubbleSort.m in Sources */,
+				85CDE22C203EAD8A00DF6169 /* SelectionSort.m in Sources */,
 				85CDE1E6203EA91D00DF6169 /* main.m in Sources */,
 				85CDE213203EA92800DF6169 /* BaseController.m in Sources */,
+				85CDE22D203EAD8A00DF6169 /* ShellSort.m in Sources */,
 				85CDE1D8203EA91D00DF6169 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +472,7 @@
 				DEVELOPMENT_TEAM = DZK6T3AW3W;
 				INFOPLIST_FILE = Algorithm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.Algorithm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,6 +487,7 @@
 				DEVELOPMENT_TEAM = DZK6T3AW3W;
 				INFOPLIST_FILE = Algorithm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.Algorithm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
