@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85614FA52040FACE0016E1A0 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85614FA42040FACE0016E1A0 /* QuickSort.m */; };
 		85CDE1D8203EA91D00DF6169 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE1D7203EA91D00DF6169 /* AppDelegate.m */; };
 		85CDE1DB203EA91D00DF6169 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE1DA203EA91D00DF6169 /* ViewController.m */; };
 		85CDE1DE203EA91D00DF6169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE1DC203EA91D00DF6169 /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85614FA32040FACE0016E1A0 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		85614FA42040FACE0016E1A0 /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
 		85CDE1D3203EA91D00DF6169 /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CDE1D6203EA91D00DF6169 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85CDE1D7203EA91D00DF6169 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 				85CDE227203EAD8900DF6169 /* SelectionSort.m */,
 				85CDE228203EAD8900DF6169 /* ShellSort.h */,
 				85CDE229203EAD8900DF6169 /* ShellSort.m */,
+				85614FA32040FACE0016E1A0 /* QuickSort.h */,
+				85614FA42040FACE0016E1A0 /* QuickSort.m */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				85CDE22B203EAD8A00DF6169 /* InsertionSort.m in Sources */,
 				85CDE22A203EAD8A00DF6169 /* BubbleSort.m in Sources */,
 				85CDE22C203EAD8A00DF6169 /* SelectionSort.m in Sources */,
+				85614FA52040FACE0016E1A0 /* QuickSort.m in Sources */,
 				85CDE1E6203EA91D00DF6169 /* main.m in Sources */,
 				85CDE213203EA92800DF6169 /* BaseController.m in Sources */,
 				85CDE22D203EAD8A00DF6169 /* ShellSort.m in Sources */,

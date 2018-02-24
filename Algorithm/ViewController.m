@@ -11,6 +11,7 @@
 #import "SelectionSort.h"
 #import "InsertionSort.h"
 #import "ShellSort.h"
+#import "QuickSort.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -37,6 +38,7 @@
                       @"SelectionSort",
                       @"InsertionSort",
                       @"ShellSort",
+                      @"QuickSort",
                       nil];
 }
 
