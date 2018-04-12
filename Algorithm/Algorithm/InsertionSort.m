@@ -20,7 +20,7 @@
     NSArray *array = @[@12,@3,@90,@76,@45,@24,@1,@88];
     NSMutableArray *orgArray = array.mutableCopy;
     
-    [self insertionSort:orgArray];
+    [self inserSort:orgArray];
     
     
     
@@ -53,6 +53,20 @@
      */
 }
 
+
+- (void)inserSort:(NSMutableArray *)array {
+    NSInteger arrayCount = array.count;
+    for (NSInteger i = 1; i < arrayCount; i++) {
+        NSNumber *temp = array[i];
+        for (NSInteger j = i - 1; j >= 0; j--) {
+            if (temp < array[j]) {
+                array[j + 1] = array[j];
+                array[j] = temp;
+            }
+        }
+    }
+    [self printArray:array];
+}
 
 /**
  打印排序之后的数组
