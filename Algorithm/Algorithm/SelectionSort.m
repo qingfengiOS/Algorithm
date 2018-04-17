@@ -19,7 +19,7 @@
 
     NSArray *orgArray = @[@12,@3,@90,@76,@45,@24,@1,@88];
     
-    [self selectionSort:orgArray.mutableCopy];
+    [self selectSort:orgArray.mutableCopy];
     
     /*
      从选择排序的过程来看，它最大的特点就是交换移动数据次数相当少，节约了相应的时间。分析它的时间复杂度发现，无论最好最差情况，其比较次数是一样多的 n-1 + n-2 + ... + 1 = n(n-1)/2。而对于交换次数而言，最好的时候交换为0次，最差的时候，为n-1次，基于最终的排序时间是比较与交换的次数总和，因此，总的时间复杂度为O(n²)
@@ -62,5 +62,21 @@
         showStr = [showStr stringByAppendingString:[NSString stringWithFormat:@"%@      ",obj]];
     }];
     NSLog(@"%@",showStr);
+}
+
+- (void)selectSort:(NSMutableArray *)array {
+    for (NSInteger i = 1; i <= array.count - 1; i++) {
+        
+        NSInteger k = i - 1;
+        for (NSInteger j = i; j <= array.count - 1; j++) {
+            if (array[j] < array[k]) {
+                k = j;
+            }
+        }
+        if (k != i - 1) {
+            [array exchangeObjectAtIndex:k withObjectAtIndex:i-1];
+        }
+    }
+    [self printArray:array];
 }
 @end
