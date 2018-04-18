@@ -20,7 +20,7 @@
     NSArray *array = @[@12,@3,@90,@76,@45,@24,@1,@88];
     NSMutableArray *orgArray = array.mutableCopy;
     
-    [self insertionSort:orgArray];
+    [self insertSort:orgArray];
     
     /*
      从空间上来看，它只需要一个记录的辅助空间，因此关键是看它的时间复杂度。当最好的情况，时间复杂度为O(n)。当最坏的情况，即待排序表示逆序的情况，如{6,5,4,3,2},此时需要比较(n+2)(n-1)/2次，记录的移动次数也达到(n+4)(n-1)/2次。如果排序记录是随机的，那么根据概率相同的原则，平均比较和移动次数约为n²/4次，因此插入排序法的时间复杂度为O(n²)，该排序比冒泡和选择排序的性能要好一些。
@@ -64,4 +64,19 @@
     }];
     NSLog(@"%@",showStr);
 }
+
+- (void)insertSort:(NSMutableArray *)array {
+    
+    for (int i = 1; i < array.count; i++) {
+        NSNumber *temp = array[i];
+        for (int j = i - 1; j >= 0; j--) {
+            if (temp < array[j]) {
+                array[j + 1] = array[j];
+                array[j] = temp;
+            }
+        }
+    }
+    [self printArray:array];
+}
+
 @end
