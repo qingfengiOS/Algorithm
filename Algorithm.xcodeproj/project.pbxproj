@@ -21,6 +21,7 @@
 		85CDE22B203EAD8A00DF6169 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE225203EAD8900DF6169 /* InsertionSort.m */; };
 		85CDE22C203EAD8A00DF6169 /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE227203EAD8900DF6169 /* SelectionSort.m */; };
 		85CDE22D203EAD8A00DF6169 /* ShellSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDE229203EAD8900DF6169 /* ShellSort.m */; };
+		FD92737220A44EEE00D49A4A /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = FD92737120A44EEE00D49A4A /* MergeSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		85CDE227203EAD8900DF6169 /* SelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionSort.m; sourceTree = "<group>"; };
 		85CDE228203EAD8900DF6169 /* ShellSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
 		85CDE229203EAD8900DF6169 /* ShellSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShellSort.m; sourceTree = "<group>"; };
+		FD92737020A44EEE00D49A4A /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		FD92737120A44EEE00D49A4A /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 				85CDE229203EAD8900DF6169 /* ShellSort.m */,
 				85614FA32040FACE0016E1A0 /* QuickSort.h */,
 				85614FA42040FACE0016E1A0 /* QuickSort.m */,
+				FD92737020A44EEE00D49A4A /* MergeSort.h */,
+				FD92737120A44EEE00D49A4A /* MergeSort.m */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -303,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD92737220A44EEE00D49A4A /* MergeSort.m in Sources */,
 				85CDE1DB203EA91D00DF6169 /* ViewController.m in Sources */,
 				85CDE22B203EAD8A00DF6169 /* InsertionSort.m in Sources */,
 				85CDE22A203EAD8A00DF6169 /* BubbleSort.m in Sources */,
