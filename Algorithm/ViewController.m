@@ -41,6 +41,7 @@
                       @"ShellSort",
                       @"QuickSort",
                       @"MergeSort",
+                      @"BucketSort",
                       nil];
 }
 
